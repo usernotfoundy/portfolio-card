@@ -4,7 +4,7 @@ import instagram from './assets/icons/icon-instagram.svg'
 import facebook from './assets/icons/icon-facebook.svg'
 import github from './assets/icons/icon-github.svg'
 import linkedin from './assets/icons/icon-linkedIn.svg'
-import shareTo from './assets/icons/icon-share.svg'
+import redirectTo from './assets/icons/icon-redirect.svg'
 import usernotfoundy from './assets/usernotfoundyLogo.png'
 import './App.css'
 
@@ -26,12 +26,12 @@ function App() {
           <p className='info--content'> I work on projects including UI/UX designs, landing pages, brochure websites, and mobile app designs ensuring usability, and accessibility as a developer.</p>
           <div className='info--contact--me'>
             <a href="mailto:adonayemmanuelii@gmail.com?subject=Web%20Design%20&body=Hello%20there!" className='redirect-links' id='get-in-touch'>
-              <img src={getInTouch} alt="" />
+              <img src={getInTouch} alt="icon-getInTouch" />
               <p>Get in touch!</p>
             </a>
             <a href="#" className='redirect-links' id='share-to' title='Not yet available'>
-              <img src={shareTo} alt="" />
-              <p>Share to</p>
+              <img src={redirectTo} alt="icon-redirect" />
+              <p>View Portfolio</p>
             </a>
           </div>
         </div>
