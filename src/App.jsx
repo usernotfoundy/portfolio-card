@@ -1,7 +1,7 @@
 import myProfile from './assets/profilePic.png'
 import getInTouch from './assets/get-in-touch.svg'
 import instagram from './assets/icons/icon-instagram.svg'
-import twitter from './assets/icons/icon-twitter.svg'
+import facebook from './assets/icons/icon-facebook.svg'
 import github from './assets/icons/icon-github.svg'
 import linkedin from './assets/icons/icon-linkedIn.svg'
 import shareTo from './assets/icons/icon-share.svg'
@@ -39,11 +39,11 @@ function App() {
         <div className='profile--socials'>
           <a href="#" title='No account yet'><img src={instagram} alt="Icon-Instragram" className='icon--socials' /></a>
           <a href="https://github.com/usernotfoundy" target='_blank'><img src={github} alt="Icon-Github" className='icon--socials' /></a>
-          <a href="#" title='No account yet'><img src={twitter} alt="Icon-Twitter" className='icon--socials' /></a>
+          <a href="https://web.facebook.com/usernotfoundy" target='_blank'><img src={facebook} alt=" Icon-Twitter" className='icon--socials' /></a>
           <a href="https://www.linkedin.com/in/emmanuel-adonay-ii-474421228" target="_blank"><img src={linkedin} alt="Icon-LinkedIn" className='icon--socials' /></a>
         </div>
       </div>
-    </div>
+    </div >
   )
 }
 
