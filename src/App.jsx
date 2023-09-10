@@ -37,7 +37,7 @@ function App() {
         </div>
         <hr />
         <div className='profile--socials'>
-          <a href="#" title='No account yet'><img src={instagram} alt="Icon-Instragram" className='icon--socials' /></a>
+          <a href="https://instagram.com/_emzkiethegreat?igshid=OGQ5ZDc2ODk2ZA==" target='_blank'><img src={instagram} alt="Icon-Instragram" className='icon--socials' /></a>
           <a href="https://github.com/usernotfoundy" target='_blank'><img src={github} alt="Icon-Github" className='icon--socials' /></a>
           <a href="https://web.facebook.com/usernotfoundy" target='_blank'><img src={facebook} alt=" Icon-Twitter" className='icon--socials' /></a>
           <a href="https://www.linkedin.com/in/emmanuel-adonay-ii-474421228" target="_blank"><img src={linkedin} alt="Icon-LinkedIn" className='icon--socials' /></a>
